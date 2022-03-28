@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+}
+
+.header{
+    font-size: 5rem;
+    padding: 3rem 0;
+    width: fit-content;
+    
+    background: linear-gradient(to right, #ffe600, #0091ff);
+    background-clip:transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input_container{
+    height: 40px;
+    width: 500px;
+    padding: 0.5rem 1rem;
+    border: 1px solid gray;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: space-between;
+
+    transition: 1s;
+}
+
+.input_container:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+.input_container input{
+    border: none;
+    width: 415px;
+}
+
+.input_container input:focus{
+    outline: none;
+}
+
+.input_container button{
+    color: gray;
+    border: none;
+    background-color: white;
+
+    transition: 0.3s;
+}
+
+.input_container button:hover{
+    color: black;
+}
